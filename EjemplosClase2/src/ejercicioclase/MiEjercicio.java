@@ -51,8 +51,8 @@ public class MiEjercicio {
         promedio = nota1+nota2;
         promedio = promedio/2;
         
-        System.out.println("\nSu nombres y apellidos: "+nombre+" "+apellido+ 
-                "\nEdad: "+edad+ "\nCuidad: "+cuidad+ "\nPais: "+pais+
-                "\nNotas: "+nota1+", "+nota2+"\nPromedio: "+promedio);
+        System.out.printf("\nSu nombres y apellidos: %s %s\nEdad: %s\nCuidad: "
+                + "%s\nPais: %s\nNotas: %s, %s\nPromedio: %s",nombre, apellido, 
+                edad, cuidad, pais, nota1, nota2, promedio);
     }
 }
